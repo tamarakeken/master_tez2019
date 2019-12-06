@@ -1,0 +1,38 @@
+######################################################################
+# .gitignore dosyası
+# Bu dosyada yer alan dosya ve klasörler için sürüm takibi yapılmaz,
+# ve bu dosyalar uzak depoya güncellenmez. Fakat yerel proje klasöründe 
+# yer alırlar. Ekip üyeleri ile paylaşılacak dosyalar burada yer almamalı.
+# DİKKAT!! Bu dosyanın sürümü takip edilir ve uzak depoya güncellenir. 
+# LÜTFEN bu dosyayı değiştirmeyiniz. Aksi halde diğer ekip üyelerini de
+# etkileyecektir.
+######################################################################
+# macOS klasörlerindeki gereksiz dosya
+.DS_Store
+
+###### Ignore temporary office files  ########
+*.tmp
+*.temp
+# Word temporary
+~$*.doc*
+# Excel temporary
+~$*.xls*
+# Excel Backup File
+*.xlk
+# PowerPoint temporary
+~$*.ppt*
+######### Ignore LaTeX temporary files ######
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.nav
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.bak
+*.sav
+##### Virtual Environment klasörünü uzak depoya yükleme ve sürüm kontrolü yapma
+/.venv/
+.Rproj.user
